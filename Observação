@@ -1,4 +1,4 @@
-Comando para criar o projeto no Windows é esse:
+Comando para criar o projeto Maven no Windows é esse:
 
 mvn archetype:generate -DgroupId=com.exemplo -DartifactId=atividade-maven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
@@ -9,3 +9,5 @@ mvn archetype:generate `
   "-DartifactId=atividade-maven" `
   "-DarchetypeArtifactId=maven-archetype-quickstart" `
   "-DinteractiveMode=false"
+
+Também se esqueceram de colocar o link e guia para adicionar o gradle no Path: https://gradle.org/releases/
