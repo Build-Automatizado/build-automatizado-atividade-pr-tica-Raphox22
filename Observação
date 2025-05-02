@@ -1,0 +1,11 @@
+Comando para criar o projeto no Windows é esse:
+
+mvn archetype:generate -DgroupId=com.exemplo -DartifactId=atividade-maven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+Esse do guia de atividade funciona apenas em Unix/Linux:
+
+mvn archetype:generate `
+  "-DgroupId=com.exemplo" `
+  "-DartifactId=atividade-maven" `
+  "-DarchetypeArtifactId=maven-archetype-quickstart" `
+  "-DinteractiveMode=false"
